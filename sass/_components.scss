@@ -20,19 +20,32 @@
     padding: 0.7rem 2rem;
     border-radius: 10rem;
     width: 90%;
+    transition: all 0.2s;
+    margin-right: -3.5rem;
 
     &:focus {
       outline: none;
       width: 100%;
+      background-color: var(--color-grey-light-3);
     }
   }
 
   &__button {
+    border: none;
+    background-color: var(--color-grey-light-2);
   }
 
   &__icon {
     height: 2rem;
     width: 2rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 }
 
