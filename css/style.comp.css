@@ -30,8 +30,10 @@
   margin-left: 3rem; }
 
 .search {
-  background-color: orangered;
-  flex: 0 0 40%; }
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .search__input {
     font-family: inherit;
     font-size: inherit;
@@ -42,17 +44,20 @@
     border-radius: 10rem;
     width: 90%;
     transition: all 0.2s;
-    margin-right: -3.5rem; }
+    margin-right: -3.25rem; }
     .search__input:focus {
       outline: none;
       width: 100%;
       background-color: var(--color-grey-light-3); }
+  .search__input:focus + .search__button {
+    background-color: var(--color-grey-light-3); }
   .search__button {
     border: none;
     background-color: var(--color-grey-light-2); }
   .search__icon {
     height: 2rem;
-    width: 2rem; }
+    width: 2rem;
+    fill: var(--color-grey-dark-3); }
     .search__icon:focus {
       outline: none; }
     .search__icon:active {
