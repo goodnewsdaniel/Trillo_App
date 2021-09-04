@@ -118,8 +118,6 @@
   &__user-name {
     font-weight: 300;
     text-transform: uppercase;
-    --color-username: #ebdabf;
-    color: var(--color-primary);
-    transform: scale3d(1);
+    text-decoration: darken(#ffddee, 70%);
   }
 }

@@ -105,9 +105,7 @@
   .user-nav__user-name {
     font-weight: 300;
     text-transform: uppercase;
-    --color-username: #ebdabf;
-    color: var(--color-username);
-    transform: scale3d(1); }
+    text-decoration: #77003c; }
 
 /* COLORS */
 :root {
