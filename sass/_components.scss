@@ -121,3 +121,33 @@
     text-decoration: darken(#ffddee, 70%);
   }
 }
+
+////////////////////////////////////
+///// SIDE NAVIGATION
+.side-nav {
+  &__item {
+  }
+
+  &__link {
+  }
+
+  &__icon {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+}
+
+////////////////////////////////////
+///// LEGAL
+
+.legal {
+  font-size: 1.5rem;
+  color: var(--color-grey-light-4);
+  text-align: center;
+  padding: 2.5rem;
+
+  &-designer {
+    text-transform: uppercase;
+    text-decoration-color: #fff;
+  }
+}
