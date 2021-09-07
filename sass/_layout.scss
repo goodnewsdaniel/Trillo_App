@@ -3,6 +3,7 @@
   margin: 8rem auto;
   background-color: var(--color-grey-light-1);
   box-shadow: var(--shadow-dark);
+  border-radius: 2rem;
   min-height: 50rem;
 }
 
@@ -10,7 +11,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 3px solid var(--color-primary);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +31,6 @@
 
 .hotel-view {
   background-color: #fff;
-  /////Testing
-  background-color: orangered;
   height: 80rem;
-
   flex: 1; //This flex-grow property enables the element to fill up the remainder
 }
