@@ -391,17 +391,36 @@
     background-color: var(--color-primary);
     -webkit-mask-image: url(../img/chevron-thin-right.svg);
     -webkit-mask-size: cover;
+    mask-image: url(../img/chevron-thin-right.svg);
+    mask-size: cover;
   }
 }
 
 ////////////////////////////////////
 ///// RECOMMEND
 .recommend {
+  font-size: 1.3rem;
+  color: var(--color-grey-dark-3);
+  display: flex;
+  align-items: center;
+
   &__count {
+    margin-right: auto;
   }
 
   &__friends {
-    &__photo {
+  }
+
+  &__photo {
+    box-sizing: content-box;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+    //THis is to make the photos overlap each other
+    &:not(:last-child) {
+      margin-right: -1.5rem;
     }
   }
 }
